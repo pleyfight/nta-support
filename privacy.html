@@ -3,337 +3,117 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>NTA — Privacy Policy / プライバシーポリシー</title>
-<meta name="description" content="Privacy Policy for NTA — Nippon Transit Application (iOS). What data is used, what stays on your iPhone, and your rights. 東京・関東圏向けアプリ NTA のプライバシーポリシー。">
+<title>NTA Privacy Policy</title>
+<meta name="description" content="Privacy policy for NTA (Nippon Transit Application) on iPhone.">
+<link rel="alternate" hreflang="ja" href="ja/privacy.html">
 <link rel="icon" href="icon.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
-<style>
-:root {
-  --bg: #f6f7f9;
-  --card: #ffffff;
-  --ink: #111418;
-  --muted: #525a65;
-  --border: #dfe3ea;
-  --accent: #0066cc;
-  --accent-ink: #ffffff;
-  --stripe: linear-gradient(90deg, #ff9500 0% 16.6%, #f62e36 16.6% 33.3%, #00bb85 33.3% 50%, #00a7db 50% 66.6%, #9b7cb6 66.6% 83.3%, #b5b5ac 83.3% 100%);
-}
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #0c0f14;
-    --card: #151a22;
-    --ink: #f1f4f8;
-    --muted: #a6b0bd;
-    --border: #272f3b;
-    --accent: #4ea1ff;
-    --accent-ink: #07121e;
-  }
-}
-* { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
-@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
-body {
-  margin: 0;
-  background: var(--bg);
-  color: var(--ink);
-  font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Helvetica Neue", Arial, sans-serif;
-}
-.line-stripe { height: 5px; width: 100%; background: var(--stripe); }
-main { max-width: 760px; margin: 0 auto; padding: 28px 16px 64px; }
-header {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: 16px;
-  margin-bottom: 24px;
-}
-.brand { display: flex; align-items: center; gap: 16px; min-width: 0; }
-.brand img {
-  width: 72px;
-  height: 72px;
-  border-radius: 16px;
-  border: 1px solid var(--border);
-  flex: none;
-}
-h1 { font-size: clamp(24px, 5vw, 32px); line-height: 1.2; margin: 0; font-weight: 700; }
-.subtitle { margin: 4px 0 0; color: var(--muted); font-size: 14px; }
-.lang-bar { display: flex; flex-wrap: wrap; gap: 8px; }
-.pill {
-  display: inline-block;
-  padding: 7px 14px;
-  border-radius: 999px;
-  border: 1px solid var(--border);
-  background: var(--card);
-  color: var(--ink);
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: 600;
-}
-.card {
-  background: var(--card);
-  border: 1px solid var(--border);
-  border-radius: 16px;
-  padding: 20px 22px;
-  margin-bottom: 18px;
-  scroll-margin-top: 16px;
-}
-.card.summary { border-left: 4px solid var(--accent); }
-h2 { font-size: 20px; line-height: 1.3; margin: 0 0 10px; font-weight: 700; }
-p { margin: 0 0 12px; }
-p:last-child, ul:last-child, ol:last-child { margin-bottom: 0; }
-ul, ol { margin: 0 0 12px; padding-left: 20px; }
-li { margin-bottom: 6px; }
-a { color: var(--accent); text-underline-offset: 3px; }
-.section-divider {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-  margin: 40px 0 18px;
-  padding-top: 24px;
-  border-top: 2px solid var(--border);
-  scroll-margin-top: 16px;
-}
-.section-divider h2 { margin: 0; font-size: 22px; }
-footer {
-  margin-top: 32px;
-  padding-top: 18px;
-  border-top: 1px solid var(--border);
-  text-align: center;
-  color: var(--muted);
-  font-size: 14px;
-}
-@media (max-width: 520px) {
-  .card { padding: 18px 16px; }
-  .brand img { width: 60px; height: 60px; border-radius: 14px; }
-}
-</style>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="line-stripe" aria-hidden="true"></div>
 <main>
 <header>
   <div class="brand">
     <img src="icon.png" alt="NTA app icon">
     <div>
       <h1>NTA Privacy Policy</h1>
-      <p class="subtitle">Effective date: November 19, 2026 · 施行日: 2026年11月19日</p>
+      <p class="subtitle">Effective November 19, 2026</p>
     </div>
   </div>
-  <nav class="lang-bar" aria-label="Navigation">
-    <a class="pill" href="#ja">日本語版 ↓</a>
-    <a class="pill" href="index.html">Support</a>
+  <nav aria-label="Primary">
+    <a href="index.html">Support</a>
+    <a href="ja/privacy.html" lang="ja">日本語</a>
   </nav>
 </header>
 
-<section id="en" aria-label="English Privacy Policy">
-  <div class="card summary">
-    <h2>The Short Version</h2>
-    <p><strong>NTA — Nippon Transit Application</strong> helps you check live trains, buses, service status, and transit routes in Tokyo and the Kanto region.</p>
-    <p>There are <strong>no user accounts</strong>, <strong>no ads</strong>, <strong>no third-party analytics SDKs</strong>, and <strong>no cross-app tracking</strong>. Your favorites and preferences stay on your iPhone. Location is optional and used only to show nearby stations and bus stops while you use the app.</p>
-  </div>
-
-  <div class="card">
-    <h2>1. Who We Are</h2>
-    <p>NTA is an iOS app developed by <strong>The Rejecktz (Micheal James Fergerson)</strong>, an independent developer ("we", "us").</p>
-    <p>Contact email: <a href="mailto:codingwithmjf@gmail.com">codingwithmjf@gmail.com</a></p>
-  </div>
-
-  <div class="card">
-    <h2>2. What NTA Stores on Your iPhone</h2>
-    <p>NTA stores your preferences locally on your device using iOS <code>UserDefaults</code> and an on-device App Group (<code>group.com.therejecktz.NTA</code>) so the app and its Home Screen / Lock Screen widgets stay in sync:</p>
-    <ul>
-      <li>Favorite rail stations and bus stops</li>
-      <li>Optional Home and Work station picks and preferred commute time</li>
-      <li>App language (English or Japanese), appearance mode, haptic setting, and last map position</li>
-      <li>Cached transit timetable and station reference data for fast startup</li>
-    </ul>
-    <p>This data stays on your iPhone and is not uploaded to a user profile or developer database.</p>
-  </div>
-
-  <div class="card">
-    <h2>3. Location &amp; Network Requests</h2>
-    <ul>
-      <li><strong>Optional Device Location (Precise Location):</strong> If you grant <em>When In Use</em> location permission, NTA uses your coordinates solely for app functionality: centering the map and finding nearby train stations, bus stops, and walking ETAs. Location is never linked to your identity and never used for tracking. The app works without location permission.</li>
-      <li><strong>NTA Transit Proxy &amp; ODPT:</strong> Timetable, departure, and nearby transit requests are sent through the NTA proxy server (hosted on Cloudflare Workers) to the Public Transportation Open Data Center (ODPT). Requests authenticate using <strong>Apple App Attest</strong> (to confirm the request came from a genuine NTA app, without any user account or personal identifier). Coordinates sent to look up nearby stations/stops are rounded before leaving the proxy, and the proxy does not log request details.</li>
-      <li><strong>Apple Maps (MapKit):</strong> Map tiles, station/place search, and walking or ETA routing use Apple Maps and are governed by Apple's Privacy Policy.</li>
-      <li><strong>Public Service Status Feeds:</strong> NTA fetches publicly available rail status feeds (ODPT, Tokyo Metro status JSON, and public Kanto delay feeds) to display delays and disruptions.</li>
-      <li><strong>External Web Links:</strong> Tapping official operator line maps or Support opens an HTTPS page inside iOS Safari View (<code>SFSafariViewController</code>).</li>
-    </ul>
-  </div>
-
-  <div class="card">
-    <h2>4. What NTA Does Not Collect</h2>
-    <ul>
-      <li>No accounts, logins, names, email addresses, or phone numbers inside the app</li>
-      <li>No advertising networks or IDFA tracking (<code>NSPrivacyTracking</code> is disabled)</li>
-      <li>No third-party analytics, telemetry, or session-recording SDKs</li>
-      <li>No contacts, photos, microphone, camera, or health data</li>
-    </ul>
-  </div>
-
-  <div class="card">
-    <h2>5. Sharing &amp; Selling</h2>
-    <p>We do <strong>not</strong> sell your personal information, share it for cross-context behavioral advertising, or disclose it to data brokers. Network requests go only to the transit, map, and status services required to provide the transit features you request.</p>
-  </div>
-
-  <div class="card">
-    <h2>6. Storage, Security &amp; Crash Reports</h2>
-    <p>On-device data is stored in iOS sandboxed app storage protected by your device passcode and encryption. Network requests to the NTA transit proxy, ODPT, and Apple Maps use HTTPS encryption.</p>
-    <p>If you choose to share iPhone analytics and crash logs with app developers in iOS <strong>Settings &rarr; Privacy &amp; Security &rarr; Analytics &amp; Improvements</strong>, Apple may provide anonymized crash reports to us so we can fix bugs.</p>
-  </div>
-
-  <div class="card">
-    <h2>7. Your Choices &amp; Data Deletion</h2>
-    <ul>
-      <li><strong>Turn off location:</strong> Open iPhone <strong>Settings &rarr; Privacy &amp; Security &rarr; Location Services &rarr; NTA</strong> and select <em>Never</em>.</li>
-      <li><strong>Remove saved stations or Home/Work picks:</strong> Edit or remove them directly inside the NTA app.</li>
-      <li><strong>Delete all local data:</strong> Deleting NTA from your iPhone removes all app and widget preferences stored on your device.</li>
-    </ul>
-  </div>
-
-  <div class="card">
-    <h2>8. Regional Privacy Rights</h2>
-    <p>If you have questions about your privacy rights or wish to submit a request, email <a href="mailto:codingwithmjf@gmail.com">codingwithmjf@gmail.com</a> and we will respond within 30 days.</p>
-    <ul>
-      <li><strong>Japan (APPI / 個人情報保護法):</strong> NTA does not acquire personal information such as your name or account profile and does not provide personal data to third parties.</li>
-      <li><strong>California (CCPA/CPRA):</strong> We do not sell or share personal information and do not collect sensitive personal information beyond app-requested optional location functionality.</li>
-      <li><strong>EEA &amp; United Kingdom (GDPR):</strong> Processing of network/location requests is strictly limited to providing the transit functionality you actively request. You also have the right to contact your local data protection authority.</li>
-    </ul>
-  </div>
-
-  <div class="card">
-    <h2>9. Children</h2>
-    <p>NTA is a general-audience transit utility app and does not knowingly collect personal information from children.</p>
-  </div>
-
-  <div class="card">
-    <h2>10. Changes to This Policy</h2>
-    <p>If this policy changes, we will update this page with a new effective date.</p>
-    <ul>
-      <li><strong>November 19, 2026:</strong> Initial version for NTA 1.0.</li>
-    </ul>
-  </div>
-
-  <div class="card">
-    <h2>11. Contact</h2>
-    <p><strong>The Rejecktz (Micheal James Fergerson)</strong></p>
-    <p>Email: <a href="mailto:codingwithmjf@gmail.com">codingwithmjf@gmail.com</a></p>
-    <p>Support &amp; Issues: <a href="https://github.com/pleyfight/nta-support/issues">https://github.com/pleyfight/nta-support/issues</a></p>
-  </div>
+<section class="summary-box" aria-label="Summary">
+  <h2>The short version</h2>
+  <p>Your favorites and settings stay on your iPhone. NTA has no account, no ads, and no tracking.</p>
+  <p>Location is optional and only used while the app is open to find nearby stations, bus stops, and walking times. Transit lookups go through our proxy with rounded coordinates and no request logs.</p>
 </section>
 
-<div class="section-divider" id="ja">
-  <h2>プライバシーポリシー（日本語）</h2>
-  <div class="lang-bar">
-    <a class="pill" href="#en">English ↑</a>
-    <a class="pill" href="index.html#ja">サポートページ</a>
-  </div>
-</div>
+<section class="policy-section" id="maker">
+  <h2><span class="num">01</span> Who makes NTA</h2>
+  <p>NTA is an iPhone app made by The Rejecktz (Micheal James Fergerson), an independent developer ("we", "us"). You can reach us at <a href="mailto:codingwithmjf@gmail.com">codingwithmjf@gmail.com</a>.</p>
+</section>
 
-<section aria-label="日本語プライバシーポリシー">
-  <div class="card summary">
-    <h2>概要（ポイント）</h2>
-    <p><strong>NTA（日本交通案内 / Nippon Transit Application）</strong>は、東京・関東圏の電車・バス・運行情報・乗換案内を確認するための iOS アプリです。</p>
-    <p>アプリ内に<strong>アカウント登録機能、広告、第三者の解析 SDK、他社アプリをまたぐトラッキングは一切ありません</strong>。お気に入り駅などの設定はお客様の iPhone 端末内にのみ保存され、位置情報の利用は任意です。</p>
-  </div>
+<section class="policy-section" id="stored">
+  <h2><span class="num">02</span> What NTA saves on your iPhone</h2>
+  <p>NTA saves only what it needs to keep your transit board and widgets working:</p>
+  <ul>
+    <li>Favorite rail stations and bus stops</li>
+    <li>Optional Home and Work station picks and preferred commute time</li>
+    <li>Language choice (English or Japanese), appearance mode, haptic setting, and last map center</li>
+    <li>Cached station lists and timetable reference data so the app opens quickly</li>
+  </ul>
+  <p>This data stays on your iPhone in iOS <code>UserDefaults</code> and an on-device App Group (<code>group.com.therejecktz.NTA</code>) so the Home Screen and Lock Screen widgets stay in sync. It is never uploaded to a user profile or developer database.</p>
+</section>
 
-  <div class="card">
-    <h2>1. 運営者情報</h2>
-    <p>NTA は個人開発者 <strong>The Rejecktz（Micheal James Fergerson）</strong>（以下「当方」）が開発・提供しています。</p>
-    <p>お問い合わせ先：<a href="mailto:codingwithmjf@gmail.com">codingwithmjf@gmail.com</a></p>
-  </div>
+<section class="policy-section" id="network">
+  <h2><span class="num">03</span> Location and network requests</h2>
+  <p>If you allow location access while using the app, NTA reads your coordinates to center the map and sort nearby stations, bus stops, and walking ETAs. Location is never linked to your identity or used for tracking. The app works without location permission.</p>
+  <p>Timetable, departure, and nearby transit lookups go through the NTA transit proxy on Cloudflare Workers to the Public Transportation Open Data Center (ODPT). Requests use Apple App Attest to verify they come from a genuine copy of NTA without an account or user ID. Coordinates for nearby lookups are rounded before leaving the proxy, and the proxy writes no request logs.</p>
+  <p>Map tiles, station search, and walking times use Apple Maps (MapKit) under Apple's privacy policy. Delay and disruption banners come from ODPT, Tokyo Metro status JSON, and public Kanto delay feeds.</p>
+  <p>When you open an official operator map or Support from inside the app, NTA opens the HTTPS page in iOS Safari View (<code>SFSafariViewController</code>).</p>
+</section>
 
-  <div class="card">
-    <h2>2. 端末内に保存されるデータ</h2>
-    <p>NTA は、アプリ本体およびホーム画面・ロック画面ウィジェットを動作させるため、以下の情報を iPhone 端末内（iOS の <code>UserDefaults</code> および端末内 App Group <code>group.com.therejecktz.NTA</code>）にのみ保存します。</p>
-    <ul>
-      <li>お気に入り登録した駅およびバス停</li>
-      <li>任意で設定した自宅・職場最寄り駅および通勤時間帯</li>
-      <li>表示言語（日本語／英語）、外観モード、触覚フィードバック設定、最後に表示した地図位置</li>
-      <li>高速起動のための時刻表・駅マスターデータのキャッシュ</li>
-    </ul>
-    <p>これらの設定情報が開発者のサーバーに収集・保存されることはありません。</p>
-  </div>
+<section class="policy-section" id="not-collected">
+  <h2><span class="num">04</span> What NTA does not collect</h2>
+  <p>NTA does not ask for or collect accounts, logins, names, email addresses, or phone numbers inside the app.</p>
+  <p>There are no ad networks, no IDFA tracking (<code>NSPrivacyTracking</code> is off), no third-party analytics SDKs, and no access to your contacts, photos, camera, or microphone.</p>
+</section>
 
-  <div class="card">
-    <h2>3. 位置情報および通信について</h2>
-    <ul>
-      <li><strong>位置情報（任意・正確な位置情報）：</strong>位置情報（「このAppの使用中のみ許可」）を許可いただいた場合、現在地周辺の地図表示、最寄り駅・バス停の検索、駅までの徒歩所要時間の算出など、アプリ機能の提供のみに利用します。個人への紐付けやトラッキングには使用しません。位置情報を許可しない場合でもアプリは利用可能です。</li>
-      <li><strong>NTA 中継プロキシサーバーおよび ODPT：</strong>時刻表・発車時刻・周辺駅データの取得には、Cloudflare Workers 上の NTA 専用プロキシサーバー経由で公共交通オープンデータセンター（ODPT）へ通信します。通信には個人アカウントを使わず <strong>Apple App Attest</strong> によるアプリの正当性検証のみを行い、周辺検索時の緯度・経度は送信前に丸め処理（精度の低減）を行い、プロキシサーバーにリクエストログを保存しません。</li>
-      <li><strong>Apple Maps（MapKit）：</strong>地図表示、駅・施設検索、徒歩ルートおよび所要時間の取得には Apple Maps を利用しており、Apple のプライバシーポリシーが適用されます。</li>
-      <li><strong>公開運行情報フィード：</strong>遅延・運休情報の表示のため、ODPT、東京メトロ公開ステータス JSON、関東圏の公開遅延情報フィードを取得します。</li>
-      <li><strong>外部リンク：</strong>各鉄道・バス事業者の公式路線図やサポートページを開く際は、iOS 標準のアプリ内ブラウザ（<code>SFSafariViewController</code> / HTTPS）を使用します。</li>
-    </ul>
-  </div>
+<section class="policy-section" id="sharing">
+  <h2><span class="num">05</span> Sharing and selling</h2>
+  <p>We do not sell your information, share it for advertising, or pass it to data brokers. Network requests go only to the transit, map, and status services needed for the station, bus stop, or route you ask for.</p>
+</section>
 
-  <div class="card">
-    <h2>4. 収集しない情報</h2>
-    <ul>
-      <li>ユーザーアカウント、ログイン情報、氏名、メールアドレス、電話番号（アプリ内での収集なし）</li>
-      <li>広告識別子（IDFA）や他社アプリ・Web を横断したトラッキング（<code>NSPrivacyTracking</code> は無効）</li>
-      <li>第三者のアクセス解析・行動分析 SDK</li>
-      <li>連絡先、写真、カメラ、マイク、ヘルスケアデータ</li>
-    </ul>
-  </div>
+<section class="policy-section" id="security">
+  <h2><span class="num">06</span> Storage, security, and crash reports</h2>
+  <p>On-device data stays in iOS sandboxed storage protected by your device passcode and encryption. Requests to the NTA proxy, ODPT, and Apple Maps use HTTPS.</p>
+  <p>If you turn on Share With App Developers in iOS Settings &gt; Privacy &amp; Security &gt; Analytics &amp; Improvements, Apple may send us anonymized crash reports so we can fix bugs.</p>
+</section>
 
-  <div class="card">
-    <h2>5. 第三者提供・販売の禁止</h2>
-    <p>当方は、お客様の個人情報を販売、広告目的で共有、またはデータブローカー等に提供することはありません。外部通信は、お客様が操作した路線検索・地図表示・運行情報取得に必要な範囲に限定されます。</p>
-  </div>
+<section class="policy-section" id="choices">
+  <h2><span class="num">07</span> Your choices</h2>
+  <ul>
+    <li>Turn off location at any time in iPhone Settings &gt; Privacy &amp; Security &gt; Location Services &gt; NTA.</li>
+    <li>Edit or remove saved stations, bus stops, Home, or Work inside the app.</li>
+    <li>Delete all local app and widget data by deleting NTA from your iPhone.</li>
+  </ul>
+</section>
 
-  <div class="card">
-    <h2>6. データの保護・クラッシュレポート</h2>
-    <p>端末内に保存されるデータは iOS のアプリ領域内で保護されます。外部との通信にはすべて HTTPS 暗号化を使用しています。</p>
-    <p>お客様が iPhone の<strong>「設定」&rarr;「プライバシーとセキュリティ」&rarr;「解析と改善」</strong>で App デベロッパとの共有を有効にしている場合、不具合修正のために匿名化されたクラッシュレポートが Apple 経由で届くことがあります。</p>
-  </div>
+<section class="policy-section" id="rights">
+  <h2><span class="num">08</span> Regional privacy rights</h2>
+  <p>If you have a privacy question or request, email <a href="mailto:codingwithmjf@gmail.com">codingwithmjf@gmail.com</a> and we will reply within 30 days.</p>
+  <p>In Japan (APPI / 個人情報保護法), NTA does not acquire personal information such as your name or account profile and does not provide personal data to third parties.</p>
+  <p>In California (CCPA and CPRA), we do not sell or share personal information and do not collect sensitive personal information beyond optional on-demand location while you use the app.</p>
+  <p>In the EEA and United Kingdom (GDPR), location and network requests happen only to answer the transit lookups you trigger. You also have the right to complain to your local data protection authority.</p>
+</section>
 
-  <div class="card">
-    <h2>7. お客様による管理・削除方法</h2>
-    <ul>
-      <li><strong>位置情報の停止：</strong>iPhone の<strong>「設定」&rarr;「プライバシーとセキュリティ」&rarr;「位置情報サービス」&rarr;「NTA」</strong>から「なし」に変更できます。</li>
-      <li><strong>お気に入り・自宅／職場の削除：</strong>NTA アプリ内からいつでも削除・変更できます。</li>
-      <li><strong>すべてのローカルデータの削除：</strong>NTA アプリを iPhone から削除すると、端末内のアプリデータおよびウィジェット共有データはすべて削除されます。</li>
-    </ul>
-  </div>
+<section class="policy-section" id="children">
+  <h2><span class="num">09</span> Children</h2>
+  <p>NTA is a general-audience transit app and does not knowingly collect personal information from children.</p>
+</section>
 
-  <div class="card">
-    <h2>8. 各地域のプライバシー法令に基づく権利</h2>
-    <p>プライバシーに関するご質問やご要望は、<a href="mailto:codingwithmjf@gmail.com">codingwithmjf@gmail.com</a> までご連絡ください。30日以内に対応いたします。</p>
-    <ul>
-      <li><strong>日本（個人情報保護法 / APPI）：</strong>当方はアプリを通じて氏名等の個人情報を取得・保有しておらず、個人データの第三者提供も行いません。</li>
-      <li><strong>米国カリフォルニア州（CCPA/CPRA）：</strong>個人情報の販売・共有およびトラッキングは行いません。</li>
-      <li><strong>欧州経済領域・英国（GDPR）：</strong>位置情報および通信の処理は、お客様が要求した交通案内機能の提供のみに限定されます。各地域のデータ保護監督機関へ相談・苦情申し立てを行う権利があります。</li>
-    </ul>
-  </div>
+<section class="policy-section" id="changes">
+  <h2><span class="num">10</span> Changes to this policy</h2>
+  <p>If this policy changes, we will update this page and its effective date.</p>
+  <p>November 19, 2026: initial version for NTA 1.0.</p>
+</section>
 
-  <div class="card">
-    <h2>9. お子様の利用について</h2>
-    <p>NTA は一般向け交通案内アプリであり、お子様から個人情報を故意に収集することはありません。</p>
-  </div>
-
-  <div class="card">
-    <h2>10. ポリシーの改定</h2>
-    <p>本ポリシーを変更する場合は、このページに最新の施行日を明記して公開します。</p>
-    <ul>
-      <li><strong>2026年11月19日：</strong>NTA 1.0 リリース向け初版公開。</li>
-    </ul>
-  </div>
-
-  <div class="card">
-    <h2>11. お問い合わせ</h2>
-    <p><strong>The Rejecktz（Micheal James Fergerson）</strong></p>
-    <p>メール：<a href="mailto:codingwithmjf@gmail.com">codingwithmjf@gmail.com</a></p>
-    <p>サポート・不具合報告：<a href="https://github.com/pleyfight/nta-support/issues">https://github.com/pleyfight/nta-support/issues</a></p>
-  </div>
+<section class="policy-section" id="contact">
+  <h2><span class="num">11</span> Contact</h2>
+  <p>The Rejecktz (Micheal James Fergerson)</p>
+  <p>Email: <a href="mailto:codingwithmjf@gmail.com">codingwithmjf@gmail.com</a></p>
+  <p>GitHub issues: <a href="https://github.com/pleyfight/nta-support/issues">github.com/pleyfight/nta-support/issues</a></p>
 </section>
 
 <footer>
-  NTA — Nippon Transit Application ·
-  <a href="index.html">Support</a> ·
-  <a href="privacy.html">Privacy Policy</a> ·
-  <a href="https://github.com/pleyfight/nta-support/issues">GitHub Issues</a>
+  <span>NTA for iPhone</span>
+  <a href="index.html">Support</a>
+  <a href="https://github.com/pleyfight/nta-support/issues">GitHub issues</a>
+  <a href="ja/privacy.html" lang="ja">日本語</a>
 </footer>
 </main>
 </body>

@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NTA プライバシーポリシー</title>
+<meta name="description" content="iPhoneアプリ NTA（日本交通案内）のプライバシーポリシー。">
+<link rel="alternate" hreflang="en" href="../privacy.html">
+<link rel="icon" href="../icon.png">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<main>
+<header>
+  <div class="brand">
+    <img src="../icon.png" alt="NTA アプリアイコン">
+    <div>
+      <h1>NTA プライバシーポリシー</h1>
+      <p class="subtitle">施行日: 2026年11月19日</p>
+    </div>
+  </div>
+  <nav aria-label="メニュー">
+    <a href="index.html">サポート</a>
+    <a href="../privacy.html" lang="en">English</a>
+  </nav>
+</header>
+
+<section class="summary-box" aria-label="概要">
+  <h2>概要</h2>
+  <p>お気に入り駅やアプリの設定はお客様の iPhone 端末内にのみ保存されます。NTA にはユーザーアカウント、広告、他社トラッキングはありません。</p>
+  <p>位置情報の利用は任意で、アプリを開いている間に最寄り駅・バス停や徒歩所要時間を表示するためだけに参照します。交通データの取得時、中継プロキシは位置座標を丸めてから問い合わせ、リクエストのログは保存しません。</p>
+</section>
+
+<section class="policy-section" id="maker">
+  <h2><span class="num">01</span> 開発者について</h2>
+  <p>NTA は個人開発者 The Rejecktz（Micheal James Fergerson）が提供しています。お問い合わせは <a href="mailto:codingwithmjf@gmail.com">codingwithmjf@gmail.com</a> までお送りください。</p>
+</section>
+
+<section class="policy-section" id="stored">
+  <h2><span class="num">02</span> 端末内に保存するデータ</h2>
+  <p>NTA はアプリおよびウィジェットを動かすために必要な設定だけを iPhone 内に保存します。</p>
+  <ul>
+    <li>お気に入り登録した駅とバス停</li>
+    <li>任意で設定した自宅・職場の駅および通勤時間帯</li>
+    <li>表示言語（日本語／英語）、外観モード、触覚フィードバック設定、最後に表示した地図位置</li>
+    <li>起動を速くするための駅名・時刻表データのキャッシュ</li>
+  </ul>
+  <p>これらは iOS の <code>UserDefaults</code> と端末内 App Group（<code>group.com.therejecktz.NTA</code>）に保存され、ホーム画面・ロック画面ウィジェットとの共有にのみ使われます。開発者のサーバーへ送信・保存することはありません。</p>
+</section>
+
+<section class="policy-section" id="network">
+  <h2><span class="num">03</span> 位置情報と外部通信</h2>
+  <p>使用中の位置情報を許可した場合、NTA は地図の中心移動や最寄りの駅・バス停・徒歩所要時間の表示のために現在地を利用します。位置情報が個人に紐付けられたり、追跡に使われたりすることはありません。許可しない場合でもアプリは利用できます。</p>
+  <p>時刻表、発車時刻、周辺駅情報の取得は、Cloudflare Workers 上の NTA 専用プロキシを通じて公共交通オープンデータセンター（ODPT）へ問い合わせます。通信の正当性確認にはアカウント不要の Apple App Attest のみを使い、周辺検索に送る座標はプロキシ側で精度を丸め、アクセスログは一切残しません。</p>
+  <p>地図表示、駅検索、徒歩ルート所要時間には Apple Maps（MapKit）を使用しており、Apple のプライバシーポリシーが適用されます。遅延・運行情報は ODPT、東京メトロ公開ステータス、関東圏の公開遅延フィードを取得しています。</p>
+  <p>アプリ内から各事業者の公式路線図やサポートページを開く際は、iOS 標準のアプリ内ブラウザ（<code>SFSafariViewController</code>、HTTPS）で開きます。</p>
+</section>
+
+<section class="policy-section" id="not-collected">
+  <h2><span class="num">04</span> 収集しない情報</h2>
+  <p>NTA のアプリ内でアカウント登録、ログイン情報、氏名、メールアドレス、電話番号を求めることはありません。</p>
+  <p>広告 SDK、広告識別子（IDFA）による追跡（<code>NSPrivacyTracking</code> は無効）、第三者の解析 SDK は組み込んでいません。連絡先、写真、カメラ、マイクにもアクセスしません。</p>
+</section>
+
+<section class="policy-section" id="sharing">
+  <h2><span class="num">05</span> 第三者への提供・販売</h2>
+  <p>お客様の情報を販売したり、広告目的で共有したり、第三者へ提供したりすることはありません。外部への通信は、お客様が操作した駅・バス停・経路の情報を取得する相手先に限られます。</p>
+</section>
+
+<section class="policy-section" id="security">
+  <h2><span class="num">06</span> 保管・セキュリティ・クラッシュ報告</h2>
+  <p>端末内のデータは iOS のアプリ領域に暗号化して保護されます。NTA プロキシ、ODPT、Apple Maps との通信にはすべて HTTPS を使用します。</p>
+  <p>iPhone の「設定」&gt;「プライバシーとセキュリティ」&gt;「解析と改善」で App デベロッパとの共有を有効にしている場合のみ、不具合修正のために匿名化されたクラッシュレポートが Apple 経由で届くことがあります。</p>
+</section>
+
+<section class="policy-section" id="choices">
+  <h2><span class="num">07</span> お客様の選択と削除方法</h2>
+  <ul>
+    <li>iPhone の「設定」&gt;「プライバシーとセキュリティ」&gt;「位置情報サービス」&gt;「NTA」からいつでも位置情報をオフにできます。</li>
+    <li>お気に入りや自宅・職場の登録はアプリ内からいつでも削除できます。</li>
+    <li>NTA アプリを iPhone から削除すると、端末内の設定・キャッシュ・ウィジェット用データはすべて消去されます。</li>
+  </ul>
+</section>
+
+<section class="policy-section" id="rights">
+  <h2><span class="num">08</span> 法令に基づくプライバシーの権利</h2>
+  <p>プライバシーに関するご質問やご要望は <a href="mailto:codingwithmjf@gmail.com">codingwithmjf@gmail.com</a> までお送りください。30日以内にお返事します。</p>
+  <p>日本（個人情報保護法）に関して、NTA は氏名等の個人情報を取得・保有しておらず、個人データの第三者提供も行いません。</p>
+  <p>米国カリフォルニア州（CCPA/CPRA）に関して、個人情報の販売・共有およびトラッキングは行いません。</p>
+  <p>欧州経済領域および英国（GDPR）に関して、位置情報や通信の処理はお客様が操作した乗換・駅情報の取得に限られます。各地域の監督機関へ相談する権利もあります。</p>
+</section>
+
+<section class="policy-section" id="children">
+  <h2><span class="num">09</span> お子様の利用</h2>
+  <p>NTA は一般向け交通案内アプリであり、お子様から個人情報を故意に収集することはありません。</p>
+</section>
+
+<section class="policy-section" id="changes">
+  <h2><span class="num">10</span> 本ポリシーの変更</h2>
+  <p>内容を変更する場合は、このページと施行日を更新します。</p>
+  <p>2026年11月19日: NTA 1.0 向け初版公開。</p>
+</section>
+
+<section class="policy-section" id="contact">
+  <h2><span class="num">11</span> お問い合わせ</h2>
+  <p>The Rejecktz（Micheal James Fergerson）</p>
+  <p>メール: <a href="mailto:codingwithmjf@gmail.com">codingwithmjf@gmail.com</a></p>
+  <p>GitHub Issues: <a href="https://github.com/pleyfight/nta-support/issues">github.com/pleyfight/nta-support/issues</a></p>
+</section>
+
+<footer>
+  <span>NTA for iPhone</span>
+  <a href="index.html">サポート</a>
+  <a href="https://github.com/pleyfight/nta-support/issues">GitHub Issues</a>
+  <a href="../privacy.html" lang="en">English</a>
+</footer>
+</main>
+</body>
+</html>

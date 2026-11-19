@@ -1,23 +1,27 @@
-# NTA — Nippon Transit Application (Support & Privacy)
+# NTA (Nippon Transit Application) Support
 
-Official public support and privacy policy repository for **NTA — Nippon Transit Application** (iOS), an independent transit app for Tokyo and the Kanto region.
+Public support and privacy policy pages for **NTA** on iPhone.
 
-## Quick Links
+## Links
 
-- **Support Page:** https://pleyfight.github.io/nta-support/
-- **Privacy Policy:** https://pleyfight.github.io/nta-support/privacy.html
-- **Report a Bug / Feedback:** https://github.com/pleyfight/nta-support/issues
-- **Support Email:** [codingwithmjf@gmail.com](mailto:codingwithmjf@gmail.com)
+- Support (English): https://pleyfight.github.io/nta-support/
+- Support (Japanese): https://pleyfight.github.io/nta-support/ja/
+- Privacy policy (English): https://pleyfight.github.io/nta-support/privacy.html
+- Privacy policy (Japanese): https://pleyfight.github.io/nta-support/ja/privacy.html
+- Bug tracker: https://github.com/pleyfight/nta-support/issues
+- Email: [codingwithmjf@gmail.com](mailto:codingwithmjf@gmail.com)
 
 ---
 
-# NTA（日本交通案内）サポート・プライバシーポリシー
+# NTA（日本交通案内）サポート
 
-東京・関東圏の電車・バス向け iOS アプリ **NTA（Nippon Transit Application）** の公式サポートおよびプライバシーポリシー公開リポジトリです。
+iPhone アプリ **NTA** のサポートおよびプライバシーポリシーの公開ページです。
 
 ## リンク一覧
 
-- **サポートページ（日本語）:** https://pleyfight.github.io/nta-support/#ja
-- **プライバシーポリシー（日本語）:** https://pleyfight.github.io/nta-support/privacy.html#ja
-- **不具合報告・ご要望（GitHub Issues）:** https://github.com/pleyfight/nta-support/issues
-- **メールでのお問い合わせ:** [codingwithmjf@gmail.com](mailto:codingwithmjf@gmail.com)
+- サポート（日本語）: https://pleyfight.github.io/nta-support/ja/
+- プライバシーポリシー（日本語）: https://pleyfight.github.io/nta-support/ja/privacy.html
+- サポート（英語）: https://pleyfight.github.io/nta-support/
+- プライバシーポリシー（英語）: https://pleyfight.github.io/nta-support/privacy.html
+- 不具合報告: https://github.com/pleyfight/nta-support/issues
+- メール: [codingwithmjf@gmail.com](mailto:codingwithmjf@gmail.com)
